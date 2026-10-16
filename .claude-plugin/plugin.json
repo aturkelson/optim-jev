@@ -1,6 +1,6 @@
 {
   "name": "optim-jev",
-  "version": "0.1.0+aturkelson.1",
+  "version": "0.1.0+aturkelson.2",
   "description": "Jev based token-usage optimization tools for Claude Code workflows.",
   "author": {
     "name": "oqura.ai",
