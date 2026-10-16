@@ -10,7 +10,7 @@
       "name": "optim-jev",
       "source": "./",
       "description": "Token-usage optimization tools for Claude Code workflows.",
-      "version": "0.1.0+aturkelson.2",
+      "version": "0.1.0+aturkelson.3",
       "license": "MIT"
     }
   ]
