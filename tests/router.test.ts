@@ -164,7 +164,7 @@ describe('jev-router', () => {
     expect(seen.spawned.at(-1)?.model).toBeUndefined();
   });
 
-  test('on: a subagent resumed with SendMessage keeps its model and is not routed again', { options: { jev_router_mode: 'on' } }, async ($, on) => {
+  test('on: a resumed subagent keeps its model and is not routed again', { options: { jev_router_mode: 'on' } }, async ($, on) => {
     const seen = engine(on);
     await $.session.start(START);
     await $.turn.start({ text: 'add oauth to the api', turnId: 't1' });
